@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    font-family:  cursive ,serif;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: rgb(149, 233, 188);
+}
+.sidenav {
+    height: 25%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+
+/* header */
+.header{
+    text-align: center;
+    background-color: rgb(149, 231, 233);
+    height: 50%;
+    padding-top: 50px;
+}
+.header p{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+
+/* education */
+
+
+/* SKILLS */
+.skills{
+    text-align: center;
+    position: relative;
+    border: 8px solid #fff;
+    overflow: hidden;
+}
+.skills:hover .skills-body{
+    right: 0;
+}
+.skills img{
+    border-radius: 20px;
+    height: 400px;
+}
+.skills p{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+.skills-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background-color: #00000025;
+    color: #ffffff;
+    transition: 2s;
+}
+/* certification */
+.CERTIFICATIONS ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* project */
+.project h4{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.project ul{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+/* CO-CURRICULAR ACTIVITIES */
+.ACTIVITIES ul{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+/* WORKSHOPS */
+.WORKSHOPS ul{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+/* EXTRA CURRICULAR ACTIVITIES */
+.ACTIVITIES1 ul{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.ACTIVITIES1 h4{
+    padding-top: 5px;
+    padding-left: 10px;  
+}
+
+.links{
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    padding-left: 20%;
+    padding-top: 3%;
+}
+
+.btn{
+    display: flex;
+    padding-top: 2%;
+    padding-left: 45%;
+    padding-bottom: 2%;
+    align-items: center;
+    background-color: rgb(149, 231, 233);
+}
+footer{
+    padding-left: 45%;
+    background-color: rgb(149, 231, 233);
+}
+/* responsive web design */
+@media screen and (max-width:375px){
+    .links{
+        display: inline-block;
+        padding-left: 45%;
+    }
+}
